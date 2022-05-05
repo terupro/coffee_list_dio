@@ -30,7 +30,7 @@ class HomePage extends ConsumerWidget {
                                       title: Text(coffee.title!),
                                       children: [
                                         SimpleDialogOption(
-                                          child: Text(coffee.title!),
+                                          child: Text(coffee.description!),
                                         ),
                                       ],
                                     );
