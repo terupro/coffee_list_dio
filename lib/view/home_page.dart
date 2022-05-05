@@ -1,7 +1,7 @@
-import 'package:coffee_list_dio/models/coffee.dart';
+import 'package:coffee_list_dio/model/coffee.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:coffee_list_dio/view_models/states.dart';
+import 'package:coffee_list_dio/view_model/provider.dart';
 
 class HomePage extends ConsumerWidget {
   const HomePage({Key? key}) : super(key: key);

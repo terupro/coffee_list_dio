@@ -28,15 +28,12 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   build_runner: ^2.1.8
-  cupertino_icons: ^1.0.2
   dio: ^4.0.4
   flutter:
     sdk: flutter
   flutter_riverpod: ^1.0.3
   freezed: ^1.1.1
   freezed_annotation: ^1.1.0
-  http: ^0.13.4
-  intl: ^0.17.0
   json_serializable: ^6.1.5
 
 dev_dependencies:
