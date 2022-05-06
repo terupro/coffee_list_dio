@@ -1,7 +1,6 @@
 import 'package:coffee_list_dio/model/coffee.dart';
 import 'package:dio/dio.dart';
 
-// APIを呼び出し、データを取得する
 class CoffeeApiClient {
   Future<List<Coffee>?> fetchList() async {
     final dio = Dio();
